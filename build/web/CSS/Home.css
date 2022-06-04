@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar-brand img{
+    width:60px;    
+}
+
+.nav-link{
+    color:white;
+    font-size:16px;
+    font-family: Neutraface_2_Display_Bold; 
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: grey;
+    transition:0.4s;
+}
+
+.carousel-item img{
+    width:100%;
+    height:100vh;
+}
+
+.logout-btn
+{
+    width: 90px;
+    height:40px;    
+    border:none;
+    font-family: Neutraface_2_Display_Bold; 
+    font-size:15px;
+    border-radius:4px;
+}
+
+.logout-btn:focus{
+    outline: none;
+}
+
+.logout-btn
+{
+    width: 90px;
+    height:40px;    
+    border:none;
+    font-family: Neutraface_2_Display_Bold; 
+    font-size:15px;
+    border-radius:4px;
+}
+
+.logout-btn:focus{
+    outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

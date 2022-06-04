@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.navbar-brand img{
+    width:60px;    
+}
+
+.nav-link{
+    color: white;
+    font-size:17px;
+    font-family: Neutraface_2_Display_Bold; 
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: grey;
+    transition:0.2s;
+}
+
+
+.AddPro{
+    width: 250px;
+    height:80px;    
+    border:none;
+    font-family: Neutraface_2_Display_Bold; 
+    font-size:17px;
+    border-radius:4px;
+    text-transform: uppercase;
+}
+
+
+.AddPro:focus{
+    outline: none;
+}
+
+.logout-btn
+{
+    width: 90px;
+    height:40px;    
+    border:none;
+    font-family: Neutraface_2_Display_Bold; 
+    font-size:15px;
+    border-radius:4px;
+}
+
+.logout-btn:focus{
+    outline: none;
+}
+
+.footer-main{
+    background: #111;
+    width:100%;
+    height:auto;
+    font-family: Neutraface_2_Display_Bold;
+    text-transform: uppercase;
+    color:white;
+    text-align:center;
+}
+
+.footer-main ul{
+margin:0px;
+padding: 0px;
+}
+
+.footer-main ul li{
+display:inline-block;
+margin:10px 15px;
+font-size:17px;
+}
+
+.footer-main ul li a{
+text-decoration:none;
+cursor: pointer;
+color:white;
+}
+
+.footer-nav li a:hover{
+    border-bottom:2px solid #427BFF;
+}
+
+
+
+  ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}  
+   
